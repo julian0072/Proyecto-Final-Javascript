@@ -1,0 +1,63 @@
+.btn-carrito {
+  width: 120px;
+}
+.btn-carrito:hover {
+  transform: scale(1.3);
+}
+
+.card {
+  max-height: 95%;
+}
+
+.cardImg {
+  padding: 25px;
+  border-radius: 40px;
+}
+
+.cardImg:hover {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 35px;
+}
+
+.card-text {
+  font-size: 35px;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+
+.btn-comprar {
+  width: 20%;
+  height: 20%;
+}
+
+.modal-title {
+  display: flex;
+  justify-content: center;
+}
+
+.total-carrito {
+  font-size: 30px;
+}
+
+.numero-carrito {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.eliminar-producto {
+  color: red;
+}
+
+.eliminarBoton {
+  display: grid;
+  place-items: center;
+}
+
+.precio-carrito {
+  font-size: 25px;
+}
