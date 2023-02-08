@@ -31,8 +31,16 @@
 }
 
 .btn-comprar {
-  width: 20%;
+  background-color: #212121;
+  border-color: #212121;
+  color: white;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 900;
+  width: 30%;
   height: 20%;
+  padding-top: 9px;
+  box-shadow: 0px 5px 10px #212121;
 }
 
 .modal-title {

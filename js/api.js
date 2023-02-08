@@ -7,5 +7,5 @@ fetch(url)
     console.log(data);
     console.log(data.username);
     const parrafoUsuario = document.createElement("p");
-    userName.innerHTML = `Bienvenido ${data.username}`;
+    userName.innerHTML = `Bienvenido a mi carrito: ${data.username}`;
   });

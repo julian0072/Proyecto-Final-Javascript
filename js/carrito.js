@@ -83,5 +83,5 @@ function almacenarLocalStorage() {
 
 //Mensaje asincrónico
 setTimeout(() => {
-  Swal.fire("¡No pierdas nuestras ofertas de fin de año!");
+  Swal.fire("¡No pierdas nuestras ofertas de Black Friday!");
 }, 1000);
