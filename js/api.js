@@ -1,12 +1,11 @@
-// const options = {
-//   method: "GET",
-//   headers: {
-//     "X-RapidAPI-Key": "1551631381msh99b41b59cb7e9fap103c3fjsn8c408e510cdd",
-//     "X-RapidAPI-Host": "world-clock.p.rapidapi.com",
-//   },
-// };
+const url = "https://jsonplaceholder.typicode.com/users/1";
+const userName = document.getElementById("bienvenidoUsuario");
 
-// fetch("https://world-clock.p.rapidapi.com/json/utc/now", options)
-//   .then((response) => response.json())
-//   .then((response) => console.log(response))
-//   .catch((err) => console.error(err));
+fetch(url)
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+    console.log(data.username);
+    const parrafoUsuario = document.createElement("p");
+    userName.innerHTML = `Bienvenido ${data.username}`;
+  });
