@@ -31,7 +31,7 @@ const pintarCarrito = () => {
             `;
 
     total += precio * cantidad;
-    modalTotal.innerHTML = `<p class="py-4 fw-bold total-carrito ">Total: ${total}$</p>`;
+    modalTotal.innerHTML = `<p class="py-4 fw-bold total-carrito  ">Total: ${total}$</p>`;
     modalTotal.append();
     modalContainer.append();
   });
