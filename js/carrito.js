@@ -12,17 +12,17 @@ const pintarCarrito = () => {
             src="${img}"
             class="w-25 h-35"
           />
-          <div class="container-fluid d-flex justify-content-center pt-5">
-          <button class="px-3 operador-restar " id="btnDecrease-${nombre}"  >➖</button>
+          <div class="container-fluid d-flex justify-content-center pt-3">
+          
           <span class="fw-bold numero-carrito px-3 " id="span-${nombre}"  >${cantidad}</span>
-          <button class="px-3 operador-sumar" id="btnIncrease-${nombre}"  >➕</button>
+          
           </div>
           <div class="container-fluid d-flex justify-content-center pt-3">
           <button onclick="eliminarProducto(${id})" class="mx-5 px-3 eliminar-producto btn-eliminar" id="btnEliminar-${id}"  >X</button>
 
           </div>
           </div>
-          <div class="container-fluid d-flex justify-content-center pt-5">
+          <div class="container-fluid d-flex justify-content-center pt-3">
 
            <p class=" fw-bold precio-carrito">${precio}$</p>
            </div>

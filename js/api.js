@@ -6,7 +6,6 @@ const userName = document.getElementById("bienvenidoUsuario");
 fetch(url)
   .then((res) => res.json())
   .then((data) => {
-    console.log(data);
     const randomIndex = Math.floor(Math.random() * data.length);
     const randomUser = data[randomIndex];
     const parrafoUsuario = document.createElement("p");

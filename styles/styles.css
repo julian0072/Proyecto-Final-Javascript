@@ -69,3 +69,9 @@
 .precio-carrito {
   font-size: 25px;
 }
+
+.btn-eliminar {
+  border-radius: 50px;
+  background-color: #212121;
+  color: white;
+}
